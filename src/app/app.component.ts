@@ -13,13 +13,18 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Inbox',
-      url: '/folder/Inbox',
+      title: 'משימות בוסריות',
+      url: '/folder/משימות בוסריות',
       icon: 'mail'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
+      title: 'משימה חדשה',
+      url: '/folder/משימה חדשה',
+      icon: 'mail'
+    },
+    {
+      title: 'תקיות',
+      url: '/folder/תקיות',
       icon: 'paper-plane'
     },
     {
@@ -28,19 +33,19 @@ export class AppComponent implements OnInit {
       icon: 'heart'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
+      title: 'משימות',
+      url: '/folder/משימות',
+      icon: 'warning'
+    },
+    {
+      title: 'נעשה',
+      url: '/folder/נעשה',
       icon: 'archive'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
+      title: 'בוטל',
+      url: '/folder/בוטל',
       icon: 'trash'
-    },
-    {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
